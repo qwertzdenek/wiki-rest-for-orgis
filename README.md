@@ -18,6 +18,10 @@ How to run
 
     `python3 -m pip install -r requirements.txt`
 
+- setup env file if you need credentials
+
+    `mv .env.sample .env`
+
 - run the server
 
     `uvicorn app:api`
